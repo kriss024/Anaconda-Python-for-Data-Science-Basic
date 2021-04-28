@@ -27,6 +27,6 @@ Navigate to [http://127.0.0.1:8888/](http://127.0.0.1:8888/) in your web browser
 - [x] seaborn
 - [x] Statsmodels
 - [x] SQLAlchemy
-- [x] TensorFlow 2
+- [x] TensorFlow 2 (CPU-only)
 - [x] XGBoost
 - [x] LightGBM
