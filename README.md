@@ -10,7 +10,7 @@ optional in WSL2:
 docker run -it --name python3 -p 8888:8888 -v /mnt/c/work:/home/notebooks kriss024/anaconda-python-for-data-science-basic
 ```
 
-Navigate to [http://127.0.0.1:8888/](http://127.0.0.1:8888/) in your web browser to run the notebooks
+After that you can start using the commands in container
 
 ## Content
 - [x] Anaconda Python 3.8.8
