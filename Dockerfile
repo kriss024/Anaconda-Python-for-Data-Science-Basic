@@ -16,7 +16,8 @@ RUN conda update conda -y \
 RUN pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow_cpu-2.4.0-cp38-cp38-manylinux2010_x86_64.whl \
 && pip install keras
 
-RUN conda install -y -c conda-forge py-xgboost \
+RUN conda install -y -c conda-forge pydotplus \
+&& conda install -y -c conda-forge py-xgboost \
 && conda install -y -c conda-forge lightgbm
 
 # Creating a directory for Jupyter Notebooks
