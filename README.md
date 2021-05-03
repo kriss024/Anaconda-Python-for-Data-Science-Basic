@@ -21,6 +21,8 @@ After that you can start using the commands in container
 - [x] Flask
 - [x] Keras
 - [x] NumPy
+- [x] imageio
+- [x] Openpyxl
 - [x] Pandas
 - [x] scikit-learn
 - [x] SciPy
