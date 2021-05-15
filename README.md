@@ -7,7 +7,7 @@ docker run -it --name python3 -p 8888:8888 -v C:\Work:/home/notebooks kriss024/a
 ```
 e.g. in WSL2:
 ```
-docker run -it --name python3 -p 8888:8888 -v /home/<user name>/notebooks:/home/notebooks kriss024/anaconda-python-for-data-science-basic
+docker run -it --name python3 -p 8888:8888 -v "$PWD":/home/notebooks kriss024/anaconda-python-for-data-science-basic
 ```
 
 After that you can start using the commands in container
