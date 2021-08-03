@@ -1,11 +1,12 @@
-# Anaconda Python 3.8.8 for Data Science use
+# Anaconda Python 3.8.8 - Basic setup for Data Science
 
 ## How to Use this Image
 To launch the container, run the following command:
+in Windows:
 ```
 docker run -it --name python3 -p 8888:8888 -v C:\Work:/home/notebooks kriss024/anaconda-python-for-data-science-basic
 ```
-e.g. in Windows WSL:
+in Windows WSL or Linux:
 ```
 docker run -it --name python3 -p 8888:8888 -v "$PWD":/home/notebooks kriss024/anaconda-python-for-data-science-basic
 ```
