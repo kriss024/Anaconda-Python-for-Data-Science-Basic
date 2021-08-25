@@ -22,7 +22,7 @@ RUN conda install -y -c conda-forge pydotplus \
 && conda install -y -c conda-forge lightgbm \
 && conda install -y -c anaconda joblib
 
-# Creating a directory for Jupyter Notebooks
+# Creating a directory for Jupyter Notebook
 RUN mkdir -p /home/notebooks
 
 # Setting working directory
