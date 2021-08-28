@@ -25,5 +25,8 @@ RUN conda install -y -c conda-forge pydotplus \
 # Creating a directory for Jupyter Notebook
 RUN mkdir -p /home/notebooks
 
+# Jupyter and Tensorboard ports
+EXPOSE 8888 6006
+
 # Setting working directory
 WORKDIR /home/notebooks
