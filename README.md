@@ -1,5 +1,5 @@
 # Anaconda Python for Data Science - Basic setup
-### Python 3.8.8 with TensorFlow 2.6, XGBoost, LightGBM, scikit-learn libraries
+### Python 3.8.8 with TensorFlow 2, XGBoost, LightGBM, scikit-learn libraries
 
 
 ## How to Use this Image
@@ -23,9 +23,9 @@ After that you can start using the commands in container
 - [x] Dask
 - [x] Flask
 - [x] Keras
+- [x] Hyperopt
 - [x] NumPy
 - [x] imageio
-- [x] Joblib
 - [x] Openpyxl
 - [x] Pandas
 - [x] scikit-learn

@@ -20,12 +20,12 @@ RUN pip install psycopg2-binary \
 RUN conda install -y -c conda-forge pydotplus \
 && conda install -y -c conda-forge py-xgboost \
 && conda install -y -c conda-forge lightgbm \
-&& conda install -y -c anaconda joblib
+&& conda install -y -c conda-forge hyperopt
 
 # Creating a directory for Jupyter Notebook
 RUN mkdir -p /home/notebooks
 
-# Jupyter and Tensorboard ports
+# Jupyter Notebook and Tensorboard ports
 EXPOSE 8888 6006
 
 # Setting working directory
